@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none; /*リストの頭には何もつけない*/
+}
+
+
+
+
+
+
+/* header↓ */
+header {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #fff;
+}
+
+.header-title img {
+    width: 130%;
+}
+span {
+    margin-left: 20px;
+    font-weight: bold;
+}
+span strong {
+    font-size: 20px;
+}
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.header ul {
+    display: flex;
+    padding: 10px 0; 
+}
+
+.header li {
+    margin-left: 30px; 
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* 背景 */
+
+main {
+    background-color: #000;
+}
+.layer-bg {
+    background-image:url(/img/bg-hero3.png);
+    background-attachment:fixed;
+    background-position: top;
+}
+.layer-second {
+    background-image: url(/img/bg-hero2.png);
+    transform: translateZ(-10px) scale(5px);
+    background-position: top;
+}
+.layer-top {
+    background-image: url(/img/bg-hero1.png);
+    background-attachment: scroll;
+    background-position: top;
+}
+
+
+
+
+
+.tophead-section {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 600px;
+    margin-bottom: 50px;
+   
+}
+
+.tophead-body {
+    width: 450px;
+    height: 330px;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 5%;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+.tophead-title img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+p {
+    margin-top: 10px;
+    text-align: center;  
+    font-weight: bold;
+} 
+.btn {
+    border: #fff solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(10, 146, 158);
+    margin: 20px 50px 20px 50px;
+}
+.btn a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;   
+}
+.recommend-section {
+    width: 1200px;
+    padding: 20px 16px 100px 16px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: -200px;
+}
+.recommend {
+    display: flex;
+    text-align: center;
+ 
+}
+.recommend-body {
+    text-align: left;   
+}
+.circle {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: solid 5px black;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.circle i {
+    margin-top: 30%;
+}
+.recommend-a {
+    margin: 0 40px;
+}
+.recommend-b {
+    margin: 0 40px;
+}
+.recommend-c {
+    margin: 0 40px;
+}
+.recommend-title {
+    font-size: 28px;
+}
+.recommend-text {
+    color: #fff;
+    background-color: #000;
+}
+
+
+
